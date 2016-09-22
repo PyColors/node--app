@@ -14,9 +14,9 @@ Install all dependencies.
 $ npm install
 ```
 
-## Development
+## Run the server
 
-Builds the application and starts a webserver with livereload.
+Server listening on: http://localhost:8080
 
 ```
 $ npm run start
