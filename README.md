@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img src="http://pycolors.com/v2/git/node/node.png" alt="Node" />
+    <img src="http://pycolors.com/v2/git/node/express-js.jpg" alt="NodeJS and ExpressJS" />
 </p>
 
 
