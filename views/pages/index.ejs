@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/semantic/semantic.min.css">
+<style>
+    .main.container {
+        margin: 7em 0 0;
+    }
+</style>
+</head>
+<body>
+
+<!-- header -->
+<div class="ui fixed inverted menu">
+    <a href="/" class="header item">Home</a>
+</div>
+
+<!-- container -->
+<div class="ui main container">
+
+    <!-- error -->
+    <% if (locals.flash && locals.flash.error) { %>
+    <div class="ui negative message">
+        <%= flash.error %>
+    </div>
+    <% } %>
+
+    <!-- form -->
+<form action="/" method="post" class="ui form">
+    <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message"> </textarea>
+    </div>
+    <button type="submit" class="ui blue labeled submit icon button">
+        <i class="icon edit"></i> Submit
+    </button>
+</form>
+</div>
+
+</body>
+</html>
+
