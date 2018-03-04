@@ -19,5 +19,30 @@ $ npm install
 Server listening on: http://localhost:8080
 
 ```
-$ npm run start
+$ npm start
+```
+
+## Build
+
+Build server
+
+```
+$ npm run build
+```
+
+
+## Serve
+
+Quickly restart the server without waiting for babel to recompile all files
+
+```
+$ npm run serve
+```
+
+## Test
+
+Test server
+
+```
+$ npm test
 ```
