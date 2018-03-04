@@ -20,29 +20,22 @@
     <a href="/" class="header item">Home</a>
     <a href="/cameras" class="header item">Cameras</a>
 </div>
-
-<!-- container -->
-<div class="ui main container">
-
-    <!-- error -->
-    <% if (locals.flash && locals.flash.error) { %>
-    <div class="ui negative message">
-        <%= flash.error %>
+ 
+<div class="ui internally celled grid">
+  <div class="row">
+    <div class="three wide column">
+      <img src="https://picsum.photos/400/300" alt="" />
     </div>
-    <% } %>
-
-    <!-- form -->
-<form action="/" method="post" class="ui form">
-    <div class="field">
-        <label for="message">Message</label>
-        <textarea name="message" id="message"> </textarea>
+    <div class="ten wide column">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas mi et nisl posuere, 
+      ac iaculis neque hendrerit. In rutrum nibh mauris, 
+      a dapibus lectus sagittis semper. Mauris odio neque, rhoncus id auctor at, bibendum non massa.</p>
     </div>
-    <button type="submit" class="ui blue labeled submit icon button">
-        <i class="icon edit"></i> Submit
-    </button>
-</form>
+    <div class="three wide column">
+     <img src="https://picsum.photos/400/300" alt="" />
+    </div>
+  </div>
 </div>
 
 </body>
 </html>
-
