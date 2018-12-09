@@ -6,6 +6,11 @@
 </p>
 
 
+This project uses a number of open source projects to work properly:
+
+* [Express] - Fast, unopinionated, minimalist web framework for node
+* [Mocha] - Simple, flexible, fun javascript test framework for node.js & the browser
+
 ## Installation
 
 Install all dependencies.
@@ -46,3 +51,8 @@ Test server
 ```
 $ npm test
 ```
+
+
+   [Express]: <https://github.com/expressjs/express>
+   [Mocha]: <https://github.com/mochajs/mocha>
+   
