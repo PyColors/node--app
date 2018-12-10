@@ -9,7 +9,7 @@
     "build": "babel lib -d dist",
     "serve": "node dist/index.js"
   },
-  "author": "",
+  "author": "PyColors",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
