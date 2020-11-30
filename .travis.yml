@@ -3,8 +3,8 @@ language: node_js
 os: osx
 
 script:
-  - npm install
-  - npm build
+  - yarn install
+  - yarn build
 
 cache:
   yarn: true
