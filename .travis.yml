@@ -2,9 +2,16 @@ language: node_js
 
 os: osx
 
+node_js:
+  - 8
+  
 script:
   - yarn install
   - yarn build
+
+notifications:
+  email:
+    on_failure: change
 
 cache:
   yarn: true
